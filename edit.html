@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Add</title>
+    <title>Edit</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="my.css">
 </head>
@@ -36,19 +36,19 @@
                 </div>
                 <form name ="form1"  onsubmit="return validateForm()" method="post">
                     <label for="Level" class="form-label">Level</label>
-                    <input type="text" name="Level" class="form-control" id="Level" placeholder="*" required>
+                    <input type="text" name="Level" class="form-control" id="Level" placeholder="**" required>
 
                     <label for="Word" class="form-label">Word</label>
-                    <input type="text" name="Word" class="form-control" id="Word" placeholder="apple"  required>
+                    <input type="text" name="Word" class="form-control" id="Word" placeholder="proposition"  required>
 
                     <label for="Meaning" class="form-label">Meaning</label>
-                    <input type="text" name="Meaning" class="form-control" id="Meaning" placeholder="사과"  required>
+                    <input type="text" name="Meaning" class="form-control" id="Meaning" placeholder="제안,명제,프로포지션,주장"  required>
 
                     <label for="Date" class="form-label">Date</label>
                     <input type="text" name="Date" class="form-control" id="Date" placeholder="2023-10-10"  required>
 
                     <hr class="my-4">
-                    <button class="w-100 btn btn-primary btn-lg" type="submit">Add</button>
+                    <button class="w-100 btn btn-secondary btn-lg" type="submit">Edit</button>
                     
 
                 </form>
@@ -92,5 +92,5 @@
             return ture;
         }
     }
-
+    
 </script>
